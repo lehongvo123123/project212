@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Phuong trinh băc nhất </title>
+     <style>
+         #ok{
+             text-align: center;
+         }
+     </style>
+</head>
+<body>
+    <h1 id="ok"> Giải Phương trình</h1>
+    <span id="num">5</span>  
+    
+</body>
+<script>
+    
+    var a=0;
+    var b=1;
+    var x;
+    var num=document.getElementById("num");
+    if(a!==0) {
+        if(b!==0){
+           x=-b/a
+            num.textContent=( "phuong trinh co nghiem la"+x)
+        }else {
+            num.textContent=( "phuong trinh co nghiem la 0")
+            }
+}else{
+    if(b===0){
+        num.textContent=( "phuong trinh co vo so nghiem ")
+    }
+    else{
+        num.textContent=( "phuong trinh vo nghiem")
+    }
+}
+</script>
+</html>

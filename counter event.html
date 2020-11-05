@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #title{
+            position: relative;
+            font-size: 50px;
+            font-family: cursive;
+            font-style: italic;
+            text-align: center;
+            text-decoration: underline;
+            background:chartreuse;
+            color:crimson;
+            top:200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Have <span id="num"></span> event number 1 to 100 </h1>
+</body>
+<script>
+function counter(n){
+    var num=document.getElementById("num")
+    var m=0;
+    for(var i=1 ; i<=n ; i++){
+         if(i%2==0){
+             m++;
+         }
+    }
+    num.textContent=m;
+} 
+counter(30002);
+</script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name{
+            font-size: 30px;
+            font-family: cursive;
+            font-weight:bold;
+            text-align: center;
+            text-decoration:underline;
+            background: chartreuse;
+        }
+    </style>
+</head>
+<body
+    <h1 id="number">5</h1>
+    <h1 id="name" > Talking about channal troll i watching ToDay  </h1> <br>
+    <img  id="picture1"src="https://cdn.pixabay.com/photo/2015/05/26/21/32/troll-785557__340.jpg" alt="Troll">
+    <img  id="picture2" src="https://cdn.pixabay.com/photo/2015/05/26/21/32/troll-785557__340.jpg" alt="Troll">
+    <img  id="picture3"src="https://cdn.pixabay.com/photo/2015/05/26/21/32/troll-785557__340.jpg" alt="Troll">
+
+    <h1>How do you fell when watching Chanal</h1>
+ </body>
+  <script>
+      
+      var name1=document.getElementById("name");
+      var image1=document.getElementById("picture1");
+      var image2=document.getElementById("picture2");
+      var image3=document.getElementById("picture3");
+//---------------------------Imcreate number -------------------------------------------
+      var num=document.getElementById("number").value;
+      var onClickx=function(){
+          num.textConten=parseFloat(num.textContent)+1;
+      }
+      
+
+//---------------------------Click Picture 1--------------------------------------------
+
+    var onClick1=function(){
+    image1.src="https://cdn.pixabay.com/photo/2018/01/17/10/22/key-3087900__340.jpg";
+        var onClick11=function(){
+            image1.src="https://cdn.pixabay.com/photo/2015/05/26/21/32/troll-785557__340.jpg";
+        }
+        image.addEventListener("click",onClick11);
+      } 
+      image1.addEventListener("click",onClick1);    
+
+//------------------Click picture 2--------------------------------------------      
+     var onClick2=function(){
+         image2.src="https://cdn.pixabay.com/photo/2015/05/29/19/17/study-789631__340.jpg";
+     }
+    image2.addEventListener("click",onClick2);
+
+  </script>
+
+</html>
